@@ -1,9 +1,9 @@
 name: Run JMeter Tests
 
 on:
-#  push:
-#    branches:
-#      - main  # Run tests on pushes to the main branch
+  push:
+    branches:
+      - main  # Run tests on pushes to the main branch
   workflow_dispatch: # Allow manual trigger of this workflow
 
 jobs:
@@ -29,7 +29,8 @@ jobs:
         run: |
           mkdir -p results
           mkdir -p test-results
-          ~/jmeter/bin/jmeter -n -t test-plan/test-plan-sample.jmx -l results/results.jtl -j results/jmeter.log
+          mkdir -p test-reports
+          ~/jmeter/bin/jmeter -n -t test-plan/test-plan-sample.jmx -l results/results.jtl -j results/jmeter.log -e -o test-reports/
 
       # Step 4: Save results as artifacts
       - name: Upload results folder as artifacts
