@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1350" it="0" lt="1349" ct="1030" ts="1737271520902" s="true" lb="Login-1" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1287" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-UN3CR32">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1737271522&amp;sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&amp;s=ZZgl7yLDCmVkL1AcoLOeBUtdJ%2F%2BpCsJlLLV84mNSr3c%3D&quot;}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1737271522&amp;sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&amp;s=ZZgl7yLDCmVkL1AcoLOeBUtdJ%2F%2BpCsJlLLV84mNSr3c%3D
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+Connection: close
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzhjOTE0NDViYTU1MjAwMTNmOTkwNjAiLCJpYXQiOjE3MzcyNzE1MjJ9.Aq-TM_NguQSef95roEIKup5qu7YNdlGkOrsFpVEuA_I; Max-Age=36000; Path=/; Expires=Sun, 19 Jan 2025 17:25:22 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 306
+Etag: W/&quot;132-ecf4dJupNUKUM0aYvIgmncqNc0c&quot;
+Date: Sun, 19 Jan 2025 07:25:22 GMT
+Via: 1.1 vegur
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Postman-Token: 26cb054b-7185-4df5-a95b-8d9c1b8c9be6
+Host: thinking-tester-contact-list.herokuapp.com
+Content-Type: application/json
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Content-Length: 79
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;user&quot;:{&quot;_id&quot;:&quot;678c91445ba5520013f99060&quot;,&quot;firstName&quot;:&quot;Anuradha&quot;,&quot;lastName&quot;:&quot;Muthukumarana&quot;,&quot;email&quot;:&quot;anuradhamuthukumarana99@gmail.com&quot;,&quot;__v&quot;:20},&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzhjOTE0NDViYTU1MjAwMTNmOTkwNjAiLCJpYXQiOjE3MzcyNzE1MjJ9.Aq-TM_NguQSef95roEIKup5qu7YNdlGkOrsFpVEuA_I&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzhjOTE0NDViYTU1MjAwMTNmOTkwNjAiLCJpYXQiOjE3MzcyNjgyNTR9.EXmboLHGGRf5f-fxsiylEwgcXfppbUwv2lfjqphHLAc</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{
+    &quot;email&quot;: &quot;anuradhamuthukumarana99@gmail.com&quot;,
+    &quot;password&quot;: &quot;Anu@789&quot;
+}</queryString>
+  <java.net.URL>https://thinking-tester-contact-list.herokuapp.com/users/login</java.net.URL>
+</httpSample>
+
+<httpSample t="1580" it="0" lt="1577" ct="1249" ts="1737271633483" s="false" lb="Create New contact-2" rc="401" rm="Unauthorized" tn="" dt="text" de="utf-8" by="794" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-UN3CR32">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Server: Cowboy
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1737271635&amp;sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&amp;s=3CGh%2FqFC7F%2BZzYgDOQ6I30vKNhYUuQBQpLnQWBt%2B2q4%3D&quot;}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1737271635&amp;sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&amp;s=3CGh%2FqFC7F%2BZzYgDOQ6I30vKNhYUuQBQpLnQWBt%2B2q4%3D
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+Connection: close
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 32
+Etag: W/&quot;20-l84Ae8oPqxLFOfh6GyOldXOyOfM&quot;
+Date: Sun, 19 Jan 2025 07:27:15 GMT
+Via: 1.1 vegur
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM3MGM5MjI3YzVmZDAwMTMxOTBlMTgiLCJpYXQiOjE3MDc1NDQwMTN9.4E28fdrDVhfVpLESqIiml6xUHA_KQK5UHQtlSHGtMWk
+Postman-Token: 95fa8bfe-6bf0-41ad-b293-f499e18a85fa
+Host: thinking-tester-contact-list.herokuapp.com
+Content-Type: application/json
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Content-Length: 296
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;error&quot;:&quot;Please authenticate.&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzhjOTE0NDViYTU1MjAwMTNmOTkwNjAiLCJpYXQiOjE3MzcyNzE1MjJ9.Aq-TM_NguQSef95roEIKup5qu7YNdlGkOrsFpVEuA_I</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{
+    &quot;firstName&quot;: &quot;John&quot;,
+    &quot;lastName&quot;: &quot;Doe&quot;,
+    &quot;birthdate&quot;: &quot;1970-01-01&quot;,
+    &quot;email&quot;: &quot;jdoe@fake.com&quot;,
+    &quot;phone&quot;: &quot;8005555555&quot;,
+    &quot;street1&quot;: &quot;1 Main St.&quot;,
+    &quot;street2&quot;: &quot;Apartment A&quot;,
+    &quot;city&quot;: &quot;Anytown&quot;,
+    &quot;stateProvince&quot;: &quot;KS&quot;,
+    &quot;postalCode&quot;: &quot;12345&quot;,
+    &quot;country&quot;: &quot;USA&quot;
+}</queryString>
+  <java.net.URL>https://thinking-tester-contact-list.herokuapp.com/contacts</java.net.URL>
+</httpSample>
+<httpSample t="1292" it="0" lt="1292" ct="961" ts="1737271657926" s="true" lb="Create New contact-3" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1287" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-UN3CR32">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1737271659&amp;sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&amp;s=sak1Ip39sDEYSY4dCEgjvWjWg%2BQ50OK989Hlm1B%2FeTI%3D&quot;}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1737271659&amp;sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&amp;s=sak1Ip39sDEYSY4dCEgjvWjWg%2BQ50OK989Hlm1B%2FeTI%3D
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+Connection: close
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzhjOTE0NDViYTU1MjAwMTNmOTkwNjAiLCJpYXQiOjE3MzcyNzE2NTl9._lqN1SAe1l3EXCYweddG8gqobLF5AHJdFIehoha83iY; Max-Age=36000; Path=/; Expires=Sun, 19 Jan 2025 17:27:39 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 306
+Etag: W/&quot;132-c4Wvk0XAPq8gAcxc6R2DNRNWysw&quot;
+Date: Sun, 19 Jan 2025 07:27:39 GMT
+Via: 1.1 vegur
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Postman-Token: 1ac78f76-cf25-4e2f-a775-80d4c5d564cc
+Host: thinking-tester-contact-list.herokuapp.com
+Content-Type: application/json
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Content-Length: 79
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;user&quot;:{&quot;_id&quot;:&quot;678c91445ba5520013f99060&quot;,&quot;firstName&quot;:&quot;Anuradha&quot;,&quot;lastName&quot;:&quot;Muthukumarana&quot;,&quot;email&quot;:&quot;anuradhamuthukumarana99@gmail.com&quot;,&quot;__v&quot;:21},&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzhjOTE0NDViYTU1MjAwMTNmOTkwNjAiLCJpYXQiOjE3MzcyNzE2NTl9._lqN1SAe1l3EXCYweddG8gqobLF5AHJdFIehoha83iY&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzhjOTE0NDViYTU1MjAwMTNmOTkwNjAiLCJpYXQiOjE3MzcyNzE1MjJ9.Aq-TM_NguQSef95roEIKup5qu7YNdlGkOrsFpVEuA_I</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{
+    &quot;email&quot;: &quot;anuradhamuthukumarana99@gmail.com&quot;,
+    &quot;password&quot;: &quot;Anu@789&quot;
+}</queryString>
+  <java.net.URL>https://thinking-tester-contact-list.herokuapp.com/users/login</java.net.URL>
+</httpSample>
+<httpSample t="1523" it="0" lt="1523" ct="1195" ts="1737271672463" s="true" lb="Create New contact-4" rc="201" rm="Created" tn="" dt="text" de="utf-8" by="1064" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-UN3CR32">
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1737271674&amp;sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&amp;s=Mav6rdxB%2BySGtY2h8It%2Bra%2BXAVJ9FrrQOe0r5ePGuZc%3D&quot;}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1737271674&amp;sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&amp;s=Mav6rdxB%2BySGtY2h8It%2Bra%2BXAVJ9FrrQOe0r5ePGuZc%3D
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+Connection: close
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 305
+Etag: W/&quot;131-zq4hVsbDEDEQEK9aCh6VFHcdNnI&quot;
+Date: Sun, 19 Jan 2025 07:27:54 GMT
+Via: 1.1 vegur
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzhjOTE0NDViYTU1MjAwMTNmOTkwNjAiLCJpYXQiOjE3MzcyNzE2NTl9._lqN1SAe1l3EXCYweddG8gqobLF5AHJdFIehoha83iY
+Postman-Token: b076d225-384a-4ed6-9f7f-f40717a2292b
+Host: thinking-tester-contact-list.herokuapp.com
+Content-Type: application/json
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Content-Length: 296
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;_id&quot;:&quot;678ca97a767be80013f89fc4&quot;,&quot;firstName&quot;:&quot;John&quot;,&quot;lastName&quot;:&quot;Doe&quot;,&quot;birthdate&quot;:&quot;1970-01-01&quot;,&quot;email&quot;:&quot;jdoe@fake.com&quot;,&quot;phone&quot;:&quot;8005555555&quot;,&quot;street1&quot;:&quot;1 Main St.&quot;,&quot;street2&quot;:&quot;Apartment A&quot;,&quot;city&quot;:&quot;Anytown&quot;,&quot;stateProvince&quot;:&quot;KS&quot;,&quot;postalCode&quot;:&quot;12345&quot;,&quot;country&quot;:&quot;USA&quot;,&quot;owner&quot;:&quot;678c91445ba5520013f99060&quot;,&quot;__v&quot;:0}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzhjOTE0NDViYTU1MjAwMTNmOTkwNjAiLCJpYXQiOjE3MzcyNzE2NTl9._lqN1SAe1l3EXCYweddG8gqobLF5AHJdFIehoha83iY</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{
+    &quot;firstName&quot;: &quot;John&quot;,
+    &quot;lastName&quot;: &quot;Doe&quot;,
+    &quot;birthdate&quot;: &quot;1970-01-01&quot;,
+    &quot;email&quot;: &quot;jdoe@fake.com&quot;,
+    &quot;phone&quot;: &quot;8005555555&quot;,
+    &quot;street1&quot;: &quot;1 Main St.&quot;,
+    &quot;street2&quot;: &quot;Apartment A&quot;,
+    &quot;city&quot;: &quot;Anytown&quot;,
+    &quot;stateProvince&quot;: &quot;KS&quot;,
+    &quot;postalCode&quot;: &quot;12345&quot;,
+    &quot;country&quot;: &quot;USA&quot;
+}</queryString>
+  <java.net.URL>https://thinking-tester-contact-list.herokuapp.com/contacts</java.net.URL>
+</httpSample>
+
+</testResults>

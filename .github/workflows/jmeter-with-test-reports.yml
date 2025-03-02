@@ -1,9 +1,9 @@
 name: Run JMeter Tests
 
 on:
-  push:
-    branches:
-      - main  # Run tests on pushes to the main branch
+#  push:
+#    branches:
+#      - main  # Run tests on pushes to the main branch
   workflow_dispatch: # Allow manual trigger of this workflow
 
 jobs:
