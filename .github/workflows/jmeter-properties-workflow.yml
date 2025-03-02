@@ -1,6 +1,8 @@
 name: Run JMeter Tests with properties
 
 on:
+  schedule:
+    - cron: '*/5 * * * *' # Run tests every minute
   push:
     branches:
       - main  # Run tests on pushes to the main branch
